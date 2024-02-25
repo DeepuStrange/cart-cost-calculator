@@ -21,7 +21,7 @@ FetchProducts();
       flexDirection:"row",
     }}>
       <Home></Home>
-  <Cart></Cart>
+      <Cart></Cart>
     </div>
   )
 }

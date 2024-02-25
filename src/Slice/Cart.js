@@ -49,9 +49,11 @@ function Cart(){
                                 gap:20
                             }}>
                             <img src={C.image}
+                            alt="img"
                             style={{
                                 objectFit:"fill",
-                                width:80
+                                width:100,
+                                height:100
                             }}></img>
                                 <div style={{
                                     display:"flex",

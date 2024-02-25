@@ -36,6 +36,7 @@ function Home(){
                         
                     }}>
                         <img src={Prod.image}
+                        alt="img"
                         style={{
                             // objectFit:"cover",
                             height:200,
@@ -44,6 +45,7 @@ function Home(){
                         <div style={{
                             display:"flex",
                             flexDirection:"row",
+                            flexWrap:"wrap",
                             justifyContent:"space-between",
                         }}>
                         <b>{Prod.title}</b>
